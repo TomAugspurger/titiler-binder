@@ -1,0 +1,17 @@
+name: titiler
+channels:
+    - conda-forge
+dependencies:
+    - python=3.7
+    - fastapi
+    - email-validator
+    - rasterio
+    - pydantic
+    - python-dotenv
+    - numpy
+    - uvicorn
+    - rio-cogeo
+    - pangeo-dask
+    - pip
+    - pip:
+        - titiler
