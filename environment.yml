@@ -13,6 +13,10 @@ dependencies:
     - rio-cogeo
     - pangeo-dask
     - jupyter-server-proxy
+    - jupyterhub-singleuser
+    - jupyterlab
+    - nodejs
+    - nbgitpuller
     - pip
     - pip:
         - titiler[server]
