@@ -12,6 +12,7 @@ dependencies:
     - uvicorn
     - rio-cogeo
     - pangeo-dask
+    - jupyter-server-proxy
     - pip
     - pip:
-        - titiler
+        - titiler[server]
